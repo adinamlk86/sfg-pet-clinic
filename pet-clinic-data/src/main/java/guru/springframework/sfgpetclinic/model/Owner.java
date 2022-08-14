@@ -42,4 +42,8 @@ public class Owner extends Person{
         this.pets = pets;
     }
 
+    public void addPet(Pet pet){
+        this.pets.add(pet);
+    }
+
 }
